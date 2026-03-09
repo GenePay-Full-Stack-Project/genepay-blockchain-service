@@ -1,0 +1,33 @@
+# Blockchain .env files (NEVER COMMIT THESE)
+.env
+.env.local
+.env.*.local
+
+# Hardhat files
+cache/
+artifacts/
+deployments.json
+
+# Node modules
+node_modules/
+onchain-relay/node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+coverage.json
+
+# TypeChain
+typechain/
+typechain-types/

@@ -1,0 +1,25 @@
+{
+  "name": "biopay-blockchain-relay",
+  "version": "1.0.0",
+  "description": "Blockchain relay service for BioPay payment audit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "keywords": ["blockchain", "relay", "ethereum"],
+  "author": "BioPay Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ethers": "^6.9.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
